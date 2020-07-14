@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    
+    
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+   
+    
+}
+
+
+h1{
+    
+    margin-bottom: 30px;
+    color:  hsl(233, 26%, 24%);
+    font-size: 3em;
+    font-weight: 400;
+}
+
+
+ p{
+    line-height: 1.5em;
+    letter-spacing: 0.05rem;
+    color: hsl(233, 8%, 62%);
+    font-size: 16px;
+}
+
+
+.header{
+    background-color: hsl(0, 0%, 100%) ;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+
+.nav-lists{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+.nav-lists li{
+    margin-right: 30px;
+}
+
+.nav-lists a{
+    color: hsl(233, 8%, 62%)
+}
+
+.nav-lists a:hover{
+    color: hsl(233, 26%, 24%);
+}
+
+
+.btn{
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    width: 200px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    
+}
+
+.btn a{
+    color: #ffff;
+    font-size: 18px;
+}
+
+.btn-nav{
+    margin-top: 10px;
+}
+
+.section-1{
+    background-color: hsl(0, 0%, 98%);
+    width: 100%;
+    height: 700px;
+    position: relative;
+
+    
+}
+
+.banking{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+   position: relative;
+
+}
+
+
+
+ .banking-text h1{
+    width: 500px;
+    margin-top: 150px;
+    
+}
+
+
+.banking-text p{
+    
+    margin-bottom: 40px;
+    text-align: left;
+    width: 500px;
+}
+
+
+.banking-mg{
+    background-image: url('/images/bg-intro-desktop.svg');
+    width: 90%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 40%;
+    top: -40px;
+    z-index: ;
+    
+}
+
+.img-phone{
+    position: absolute;
+    left: 20%;
+    top:10;
+}
+
+.section-2 {
+    background-color: hsl(220, 16%, 96%);
+    width: 100%;
+    height: 700px;
+    position: relative;
+    
+}
+
+
+.easybank-text {
+   padding-top:100px;
+}
+
+.samples{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sample{
+    width: 300px;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.sample img{
+    padding-bottom: 40px;
+}
+
+h2{
+    padding-bottom: 30px;
+    color: hsl(233, 26%, 24%);
+    font-weight: 400;
+}
+
+.open-api{
+    width: 350px;
+}
+
+
+.articles{
+    background-color: hsl(0, 0%, 98%);
+    height: 800px;
+    width: 100%;
+}
+.latest h1{
+    padding-top: 80px;
+}
+
+.article-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.money{
+    width: 100%;
+    background-color: #fff;
+    border: 1px #ffff solid;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+
+
+.money-img{
+    width: 100%;
+    height: 250px;
+    
+    
+}
+.money-text{
+    height: 280px;
+    width: 350px;
+    margin-top: -5px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    
+}
+
+.money-text h5{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.money-text h2{
+    padding-bottom: 10px;
+}
+
+.money-text h2:hover{
+    color:hsl(136, 65%, 51%) ;
+}
+
+footer{
+    background-color:hsl(233, 26%, 24%);
+    height: 300px;
+    width: 100%;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110%;
+    padding-top: 50px;
+}
+
+.footer-left,
+.footer-right
+{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-left{
+    width: 700px;
+
+}
+
+.footer-logo{
+    width: 200px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+
+}
+
+.social-icon a:hover{
+    background-color: hsl(136, 65%, 51%);
+
+}
+
+
+.contact li{
+    color: hsl(0, 0%, 100%) ;
+    line-height: 2.7rem;
+}
+
+.contact li:hover{
+    color:  hsl(136, 65%, 51%);
+    ;
+}
+
+.footer-right{
+    width: 300px;
+    
+    
+}
+
+.btn-footer{
+
+    border: 1px ;
+}
+.copyright p{
+    
+    padding-top: 30px;
+}
